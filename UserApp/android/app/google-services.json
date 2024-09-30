@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776905746258",
+    "project_id": "enduser-app-ce1a5",
+    "storage_bucket": "enduser-app-ce1a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776905746258:android:5407a1ae47e09d522a3c8b",
+        "android_client_info": {
+          "package_name": "com.userapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAseCM0HiDKxkxz7Sy1g32XNfSIAIvk5dE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
