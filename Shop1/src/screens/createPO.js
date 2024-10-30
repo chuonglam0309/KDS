@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, NativeModules, NativeEventEmitter, Platform, PermissionsAndroid, Button, FlatList, Alert, TouchableOpacity, ScrollView, Modal, TextInput } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useCallback } from 'react';
 
 import BleManager from 'react-native-ble-manager';
 import { BLEDevice } from '../components/bleDevices';
@@ -530,6 +530,7 @@ const CreatePo = (props) => {
   const toggleModal = () => {
     setIsModalVisible(!isModalVisible);
   };
+  
   return (
     <View >
       {

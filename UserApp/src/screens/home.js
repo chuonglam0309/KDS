@@ -35,7 +35,7 @@ function Home(props) {
   const { navigate, goBack } = navigation;
 
   //const [date, setDate] = useState(new Date())// get datetime current
-  const [deviceList, setDeviceList] = useState([])// get datetime current
+  const [deviceList, setDeviceList] = useState([])
   const [name, setName] = useState('')
   const [accountID, setAccountID] = useState(0)
   const [serialList, setSerialList] = useState([]);// danh sách serial dùng để subcribe
